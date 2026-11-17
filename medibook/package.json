@@ -1,0 +1,23 @@
+{
+  "name": "medibook-react",
+  "private": true,
+  "version": "1.0.0",
+  "description": "MediBook - Doctor appointment booking app demonstrating React client-side validation",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "test": "node --test tests/"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "puppeteer-core": "^24.43.1",
+    "vite": "^5.4.11",
+    "vite-plugin-singlefile": "^2.0.3"
+  }
+}
